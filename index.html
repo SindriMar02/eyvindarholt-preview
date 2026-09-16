@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eyvindarholt · Three roofs under Eyjafjöll, South Iceland</title>
+<meta name="description" content="Hill House, the Cabin and Vallnatún: three places to stay under Eyjafjöll in South Iceland, five minutes from Seljalandsfoss. A house for ten with a hot tub, two cabins for four, and a 1944 DC-3 on the farm.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#FFFFFF" id="themeColor">
+<meta name="color-scheme" content="light">
+<!-- relative hrefs + a raster twin: a project site lives under /repo-name/, and
+     Safari ignores SVG favicons, so either mistake shows the origin root's icon -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="180x180" href="assets/img/favicon-180.png">
+<link rel="apple-touch-icon" href="assets/img/favicon-180.png">
+<link rel="preload" href="assets/fonts/Khand-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Zodiak-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Supreme-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/plate-hero.webp" fetchpriority="high"
+  imagesrcset="assets/img/plate-hero-sm.webp 1100w, assets/img/plate-hero.webp 2200w" imagesizes="100vw">
+<link rel="stylesheet" href="styles.css?v=ab7f9c17">
+
+<!-- Every fact below is taken from the business's own published pages:
+     eyvindarholt.is (EN and IS) and their three Airbnb listings, all hosted by
+     "Tomas" (41358100 Hill House, 41154767 Cabin, 28133294 Wallnatún Cabin).
+     Coordinates are from their own Google Maps place link. Nothing is inferred. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Eyvindarholt",
+  "description": "Hill House, the Cabin and Vallnatún: three places to stay under Eyjafjöll in South Iceland, five minutes from Seljalandsfoss.",
+  "url": "https://www.eyvindarholt.is/",
+  "telephone": "+354 840 1119",
+  "email": "info@eyvindarholt.is",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hvolsvöllur",
+    "postalCode": "861",
+    "addressCountry": "IS"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 63.648853, "longitude": -19.939645 },
+  "sameAs": [
+    "https://www.facebook.com/eyvindarholthillhouseandcabins/",
+    "https://www.airbnb.com/rooms/41358100",
+    "https://www.airbnb.com/rooms/41154767",
+    "https://www.airbnb.com/rooms/28133294"
+  ]
+}
+</script>
+</head>
+<body data-nav-theme="light">
+
+<a class="skip-link" href="#top">Skip to content</a>
+
+<!-- fixed grid overlay (reference device: difference-blend hairlines) -->
+<div class="grid-overlay" aria-hidden="true">
+  <div class="go-line go-l1"></div><div class="go-line go-l2"></div>
+  <div class="go-line go-l3"></div><div class="go-line go-l4"></div><div class="go-line go-l5"></div>
+</div>
+
+<!-- intro wipe (single-page reuse of the reference's page-enter) -->
+<div class="intro-wipe" id="introWipe" aria-hidden="true"></div>
+
+<nav id="nav" aria-label="Main">
+  <div class="nav-contain">
+    <ul class="nav-ul nav-left">
+      <li><a class="btn nav-btn" href="#stay">The roofs</a></li>
+      <li><a class="btn nav-btn" href="#days">Days</a></li>
+      <li><a class="btn nav-btn" href="#journey">Getting here</a></li>
+    </ul>
+    <a class="nav-logo" href="#top" aria-label="Eyvindarholt, back to top">
+      <span class="nav-logo_mark" translate="no">Eyvindarholt</span>
+      <span class="nav-logo_sub">Under Eyjafjöll · South Iceland</span>
+    </a>
+    <ul class="nav-ul nav-right">
+      <li><a class="btn nav-btn" href="#rebuild">The DC-3</a></li>
+      <li><a class="btn nav-btn is-cta" href="#book">Plan your stay</a></li>
+    </ul>
+    <button class="nav-burger" id="menuBtn" aria-controls="menuPanel" aria-expanded="false" aria-label="Menu">
+      <span class="nav-burger_l l1" aria-hidden="true"></span>
+      <span class="nav-burger_l l2" aria-hidden="true"></span>
+    </button>
+  </div>
+</nav>
+
+<!-- mobile menu panel (under the constant bar) -->
+<div class="menu-panel" id="menuPanel" aria-hidden="true">
+  <nav class="menu-panel_nav" aria-label="Menu">
+    <a class="menu-panel_link" href="#stay">The roofs</a>
+    <a class="menu-panel_link" href="#days">Days at Eyvindarholt</a>
+    <a class="menu-panel_link" href="#journey">Getting here</a>
+    <a class="menu-panel_link" href="#rebuild">The DC-3</a>
+    <a class="menu-panel_link is-cta" href="#book">Plan your stay</a>
+    <button class="menu-panel_link menu-panel_flyout" id="menuFlyoutBtn">How a stay works</button>
+  </nav>
+  <div class="menu-panel_foot">
+    <a href="tel:+3548401119">+354 840 1119</a>
+    <a href="mailto:info@eyvindarholt.is">info@eyvindarholt.is</a>
+  </div>
+</div>
+
+
+<main class="page-content" id="top">
+
+  <!-- ============ 0 · HERO ============ -->
+  <div class="hero" id="hero" data-nav-section data-nav-theme-val="light">
+    <div class="hero_wrapper" id="heroWrapper">
+      <div class="hero_bg">
+        <img width="2200" height="1650" src="assets/img/plate-hero.webp"
+          srcset="assets/img/plate-hero-sm.webp 1100w, assets/img/plate-hero.webp 2200w"
+          sizes="100vw" alt="A cabin at Eyvindarholt in a yellow summer meadow at the foot of the Eyjafjöll slopes" fetchpriority="high">
+        <div class="hero_bg-fade" id="heroBgFade"></div>
+      </div>
+      <div class="hero_overlay"></div>
+      <div class="hero_content" id="heroContent" data-reveal>
+        <div class="hero_contain top container-large" data-hero-drift>
+          <p class="t-title-italic hero_kicker">An old farm under Eyjafjöll,<br>five minutes from Seljalandsfoss</p>
+        </div>
+        <div class="hero_title-contain" id="heroTitleWrap" data-hero-drift>
+          <h1 class="hero_title" id="heroTitle" translate="no">Eyvindarholt</h1>
+        </div>
+      </div>
+      <!-- fog: alpha-channel cloud plates, two speeds for depth -->
+      <div class="clouds-overlay_wrap clouds--far" data-scroll-speed="-10%" aria-hidden="true">
+        <img width="1920" height="1080" src="assets/img/fog-far.webp" alt="" loading="eager" decoding="async">
+      </div>
+      <div class="clouds-overlay_wrap clouds--mid" data-scroll-speed="-42%" aria-hidden="true">
+        <img width="1920" height="1080" src="assets/img/fog-veil.webp" alt="" loading="eager" decoding="async">
+      </div>
+      <div class="clouds-overlay_wrap clouds--near" data-scroll-speed="-80%" aria-hidden="true">
+        <img width="1920" height="1080" src="assets/img/fog-near.webp" alt="" loading="eager" decoding="async">
+      </div>
+    </div>
+    <!-- mist-transition: sticky plane scrubbed rotateX 90 -> 0 from its bottom edge -->
+    <div class="mist-transition" id="mistTransition" aria-hidden="true">
+      <div class="mist-transition_image-container" id="mistPlane">
+        <img width="1920" height="1080" class="mist-transition_image" src="assets/img/fog-veil.webp" alt="" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 1 · MANIFESTO ============ -->
+  <section class="manifesto" data-nav-section data-nav-theme-val="dark">
+    <div class="container-large">
+      <div class="manifesto_layout">
+        <div class="manifesto_col">
+          <div class="manifesto_kicker u-relative">
+            <p class="t-title-italic">We grew up next door</p>
+            <svg class="scribble-el" id="scribble" width="191" height="62" viewBox="0 0 191 62" fill="none" aria-hidden="true">
+              <path d="M118.7 58.8C118.3 58.7 117.9 58.6 100.4 49.1 82.9 39.5 48.3 20.5 30.5 10.1 12.6 -0.4 12.5 -1.7 36.1 2.4 59.6 6.6 106.8 16.3 133.8 23 160.7 29.7 166 33.1 169.1 35.3 172.3 37.6 173.1 38.5 173.1 39.5 173.4 45.3 163.9 46.3 149.3 49.1 138.1 51.2 119 52.2 97.3 48.4 75.6 44.6 51.8 35.4 39.7 29.4 27.6 23.5 27.9 21.2 28.4 19.3 29 17.4 29.9 16.1 31.4 14.8 33 13.5 35.3 12.3 43.5 11.3 51.7 10.3 65.8 9.6 82.7 10.7 99.5 11.9 118.7 14.9 135.9 19.1 153.1 23.3 167.8 28.5 176.5 32 185.2 35.4 187.7 36.9 189.1 38.4 190.5 40 190.9 41.4 188.8 43.5 186.7 45.7 182.1 48.4 173.6 51.3 165 54.3 152.6 57.3 123.2 59.1 93.7 60.8 47.7 61 0.3 61.3" stroke="#BABABA" stroke-width="0.7" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="text-scroll-fade" id="maskDevelop">
+            <h2 class="manifesto_text">We grew up in Skógar, under the waterfall, and have spent forty years exploring this coast. In the autumn of 2019 we bought the old farm at Eyvindarholt, and with the help of friends we renovated it, so other people could enjoy this place the way we do.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2 · OUR SEASONS ============ -->
+  <section class="season has-inset" id="seasons" data-nav-section data-nav-theme-val="light">
+    <div class="season_inner">
+      <img width="2200" height="1135" class="img-fill" src="assets/img/plate-aurora-house.webp"
+        srcset="assets/img/plate-aurora-house-sm.webp 1100w, assets/img/plate-aurora-house.webp 2200w"
+        sizes="100vw" alt="Northern lights over the Hill House, its windows lit, the farm under snow" loading="lazy" style="object-position: 50% 82%">
+      <div class="season_scrim"></div>
+      <div class="season_content container-large">
+        <div class="season_head">
+          <h3 class="h3-serif">Our seasons</h3>
+          <p class="season_body">Winter brings the northern lights over a peaceful farm. From April the birds come back from Europe and the fields fill up. In summer the highlands open, from Þórsmörk to Landmannalaugar.</p>
+        </div>
+        <ul class="season_data">
+          <li><span class="data-num">Winter</span><span class="data-label">Northern lights over the farm, seen from the door</span></li>
+          <li><span class="data-num">April</span><span class="data-label">Geese, snipe and golden plover return to the fields</span></li>
+          <li><span class="data-num">Summer</span><span class="data-label">Þórsmörk, Landmannalaugar and Hekla within reach</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3 · DAYS TITLE ============ -->
+  <section class="title-band" id="days" data-nav-section data-nav-theme-val="dark">
+    <h3 class="section-title">Days at Eyvindarholt</h3>
+    <p class="title-band_sub">Everything below is on the farm or a short walk from the door. Seljalandsfoss and Gljúfrabúi are a five-minute drive.</p>
+  </section>
+
+  <!-- ============ 4 · CARD-FLICK DAYS ============ -->
+  <section class="flick" data-nav-section data-nav-theme-val="dark">
+    <div class="container-large">
+      <div class="card-flick" id="cardFlick">
+
+        <a class="card-flick_item is-active" href="#rebuild" data-cursor-text="Read its story">
+          <div class="card-flick_inner">
+            <img width="1600" height="902" class="card-flick_image" src="assets/img/day-dc3.webp" alt="The red nose of the DC-3 wreck in the grass, Stóri-Dímon behind it" loading="lazy">
+            <div class="card-flick_shade" aria-hidden="true"></div>
+            <div class="card-flick_content">
+              <h3 class="card-flick_title">The DC-3</h3>
+              <div class="card-flick_meta"><span>On the farm</span><span class="meta-div"></span><span>A short walk</span></div>
+              <p class="card-flick_excerpt">A 1944 Navy DC-3 on private land, a five-minute walk from the houses, facing Stóri-Dímon and Tindfjallajökull.</p>
+            </div>
+            <p class="card-flick_side">The DC-3</p>
+          </div>
+        </a>
+
+        <a class="card-flick_item" href="#stay" data-cursor-text="See the Hill House">
+          <div class="card-flick_inner">
+            <img width="1600" height="1067" class="card-flick_image" src="assets/img/day-hottub.webp" alt="A guest in the hot tub on the Hill House deck, looking out over the plain" loading="lazy">
+            <div class="card-flick_shade" aria-hidden="true"></div>
+            <div class="card-flick_content">
+              <h3 class="card-flick_title">The hot tub</h3>
+              <div class="card-flick_meta"><span>Hill House deck</span><span class="meta-div"></span><span>All year</span></div>
+              <p class="card-flick_excerpt">On the deck of the Hill House, looking out over the plain.</p>
+            </div>
+            <p class="card-flick_side">Hot tub</p>
+          </div>
+        </a>
+
+        <a class="card-flick_item" href="#book" data-cursor-text="Ask about winter">
+          <div class="card-flick_inner">
+            <img width="1600" height="1064" class="card-flick_image" src="assets/img/day-aurora.webp" alt="Green and violet northern lights filling the sky over the dark plain" loading="lazy">
+            <div class="card-flick_shade" aria-hidden="true"></div>
+            <div class="card-flick_content">
+              <h3 class="card-flick_title">Northern lights</h3>
+              <div class="card-flick_meta"><span>From the door</span><span class="meta-div"></span><span>Winter</span></div>
+              <p class="card-flick_excerpt">A peaceful farm, and the northern lights over it in winter.</p>
+            </div>
+            <p class="card-flick_side">Aurora</p>
+          </div>
+        </a>
+
+        <a class="card-flick_item" href="#book" data-cursor-text="Ask about spring">
+          <div class="card-flick_inner">
+            <img width="1600" height="1000" class="card-flick_image" src="assets/img/day-birds.webp" alt="A whooper swan standing in dry grass" loading="lazy">
+            <div class="card-flick_shade" aria-hidden="true"></div>
+            <div class="card-flick_content">
+              <h3 class="card-flick_title">The birds</h3>
+              <div class="card-flick_meta"><span>In the fields</span><span class="meta-div"></span><span>From April</span></div>
+              <p class="card-flick_excerpt">The family once set out to see more than a hundred species in a single year. Spring is when the fields come alive.</p>
+            </div>
+            <p class="card-flick_side">Birds</p>
+          </div>
+        </a>
+
+        <a class="card-flick_item" href="#journey" data-cursor-text="See the route">
+          <div class="card-flick_inner">
+            <img width="1600" height="902" class="card-flick_image" src="assets/img/day-hike.webp" alt="A gravel path across the farm to an information sign, green hills behind" loading="lazy">
+            <div class="card-flick_shade" aria-hidden="true"></div>
+            <div class="card-flick_content">
+              <h3 class="card-flick_title">Hikes from the door</h3>
+              <div class="card-flick_meta"><span>Signed trails</span><span class="meta-div"></span><span>Stóri-Dímon 4 km</span></div>
+              <p class="card-flick_excerpt">Trails with information signs lead up the mountain behind the farm, and an old road runs four kilometres to Stóri-Dímon.</p>
+            </div>
+            <p class="card-flick_side">Hikes</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5 · QUOTE ============ -->
+  <section class="quote-section" data-nav-section data-nav-theme-val="dark">
+    <div class="quote-sticky">
+      <figure class="quote-component container-large">
+        <blockquote class="t-quote">&ldquo;So four volcanoes, and three glaciers, are not too bad.&rdquo;</blockquote>
+        <figcaption class="quote-author">Tómas, on the view from Stóri-Dímon</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ 6 · THE RAIL ============ -->
+  <div class="rail_outer" id="stay" data-nav-section data-nav-theme-val="light">
+    <section class="rail" id="rail" aria-label="The three places to stay">
+      <div class="rail_wrapper">
+        <div class="rail_backdrops" aria-hidden="true">
+          <div class="rail_backdrop rail_backdrop--behind" id="railBehind">
+            <img width="2200" height="1236" class="img-fill" src="assets/img/plate-hillhouse-plain.webp"
+              srcset="assets/img/plate-hillhouse-plain-sm.webp 1100w, assets/img/plate-hillhouse-plain.webp 2200w" sizes="100vw" alt="" loading="lazy">
+          </div>
+          <div class="rail_backdrop rail_backdrop--clipped" id="railClipped">
+            <img width="2200" height="1650" class="img-fill" src="assets/img/plate-plain.webp"
+              srcset="assets/img/plate-plain-sm.webp 1100w, assets/img/plate-plain.webp 2200w" sizes="100vw" alt="" loading="lazy">
+            <svg class="rail_curtain" id="railCurtain" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 100 100" aria-hidden="true">
+              <defs>
+                <clipPath id="curtainClip" clipPathUnits="objectBoundingBox">
+                  <rect x="0" y="0" width="0.3334" height="1"></rect>
+                  <rect x="0.3333" y="0" width="0.3334" height="1"></rect>
+                  <rect x="0.6666" y="0" width="0.3334" height="1"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="rail_overlay" id="railOverlay" aria-hidden="true"></div>
+        </div>
+        <div class="rail_container" id="railContainer">
+
+          <div class="rail_panel rail_panel--title">
+            <div class="rail_title-wrap">
+              <h2 class="rail_title" id="railTitle">Three roofs, one host</h2>
+            </div>
+          </div>
+
+          <div class="rail_panel">
+            <article class="camp-card" data-cursor-text="Hill House">
+              <div class="camp-card_inner">
+                <img width="1600" height="1064" class="camp-card_image" src="assets/img/roof-hillhouse.webp" alt="The Hill House living room, its long windows looking out over the plain" loading="lazy">
+                <div class="camp-card_shade" aria-hidden="true"></div>
+                <div class="camp-card_content">
+                  <h3 class="camp-card_title">Hill House</h3>
+                  <p class="camp-card_excerpt">Sleeps ten in five bedrooms, with two bathrooms, a kitchen with two ovens, a table for ten and a hot tub on the deck. The living room looks out to Tindfjallajökull and Stóri-Dímon.</p>
+                  <p class="camp-card_coords">[ 4.94 · 174 reviews ]</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="rail_panel">
+            <article class="camp-card" data-cursor-text="The Cabin">
+              <div class="camp-card_inner">
+                <img width="1600" height="979" class="camp-card_image" src="assets/img/roof-cabin.webp" alt="The timber cabin in deep snow at the foot of white mountains" loading="lazy">
+                <div class="camp-card_shade" aria-hidden="true"></div>
+                <div class="camp-card_content">
+                  <h3 class="camp-card_title">The Cabin</h3>
+                  <p class="camp-card_excerpt">A cosy space for four: a double bedroom, a bunk bed in the living room, a small kitchen and three big windows facing the mountains.</p>
+                  <p class="camp-card_coords">[ 4.93 · 656 reviews ]</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="rail_panel">
+            <article class="camp-card" data-cursor-text="Vallnatún">
+              <div class="camp-card_inner">
+                <img width="1600" height="1067" class="camp-card_image" src="assets/img/roof-vallnatun.webp" alt="The Vallnatún timber cabin at golden hour, sunset caught in its windows" loading="lazy">
+                <div class="camp-card_shade" aria-hidden="true"></div>
+                <div class="camp-card_content">
+                  <h3 class="camp-card_title" translate="no">Vallnatún</h3>
+                  <p class="camp-card_excerpt">A cabin for four near the coast. Close to the main road yet remote, with the shoreline on one side and the mountains on the other.</p>
+                  <p class="camp-card_coords">[ 4.92 · 960 reviews ]</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="rail_panel rail_panel--full rail_panel--final">
+            <img width="2200" height="1464" class="img-fill" src="assets/img/plate-aurora-dc3.webp" alt="Northern lights over the DC-3 wreck at night" loading="lazy">
+            <div class="rail_final-scrim" aria-hidden="true"></div>
+            <figure class="rail_quote">
+              <blockquote class="t-quote is-white">Guests rate all three roofs above 4.9, across 1,790 reviews.</blockquote>
+              <figcaption class="quote-author is-white">Superhost · 11 years hosting</figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============ 7 · THE JOURNEY ============ -->
+  <section class="journey" id="journey" data-nav-section data-nav-theme-val="light">
+    <div class="journey_head container-large">
+      <p class="layout-title_sm is-faded">64° 09′ N 21° 57′ W<br>Reykjavík</p>
+      <div class="journey_head-center">
+        <h3 class="h3-serif">Along the south coast</h3>
+        <p class="t-body is-faded">From Reykjavík the ring road runs east across the south. Past Hvolsvöllur the Eyjafjöll mountains rise on the left, and the farm sits at their foot.</p>
+      </div>
+      <p class="layout-title_sm is-faded t-right">N63 38.931 W19 56.379<br>Eyvindarholt</p>
+    </div>
+    <h2 class="journey_code" aria-label="Reykjavík to Eyvindarholt" translate="no">RVK<span class="journey_code-div"></span>EYV</h2>
+    <div class="journey_map-outer">
+      <div class="journey_thread" id="journeyThread">
+        <div class="thread-svg_wrap" id="flightWrap" aria-hidden="true">
+          <svg class="thread-svg" viewBox="0 0 600 1600" fill="none" preserveAspectRatio="none">
+            <path class="route-static" d="M300 0 C 300 180, 170 260, 165 430 C 160 610, 430 700, 435 890 C 440 1080, 175 1170, 172 1350 C 170 1470, 300 1520, 300 1600" stroke="rgba(22,24,26,.22)" stroke-width="1"/>
+          </svg>
+          <svg class="thread-svg" viewBox="0 0 600 1600" fill="none" preserveAspectRatio="none">
+            <path class="route-flown" id="routeFlown" d="M300 0 C 300 180, 170 260, 165 430 C 160 610, 430 700, 435 890 C 440 1080, 175 1170, 172 1350 C 170 1470, 300 1520, 300 1600" stroke="#A6462F" stroke-width="1.5"/>
+          </svg>
+          <div class="route-indicator" id="routeIndicator">
+            <span class="pulse-ring" style="--i:1"></span>
+            <span class="pulse-ring" style="--i:2"></span>
+            <span class="pulse-ring" style="--i:3"></span>
+          </div>
+        </div>
+
+        <div class="waypoint is-right">
+          <div class="waypoint_text">
+            <p class="layout-title_sm is-faded">64° 09′ N 21° 57′ W</p>
+            <h4 class="waypoint_name">Reykjavík</h4>
+            <p class="waypoint_caption t-title-italic">Leave the city eastbound on Route 1, the ring road along the south coast.</p>
+          </div>
+        </div>
+
+        <div class="waypoint is-left">
+          <div class="waypoint_text">
+            <h4 class="waypoint_name">Hvolsvöllur</h4>
+            <p class="waypoint_caption t-title-italic">The last grocery store, pharmacy, restaurants and fuel, about 25 km before the farm.</p>
+          </div>
+        </div>
+
+        <div class="waypoint is-right">
+          <figure class="waypoint_card">
+            <img width="2048" height="1536" src="assets/img/plate-dimon.webp" srcset="assets/img/plate-dimon-sm.webp 1100w, assets/img/plate-dimon.webp 2048w" sizes="(max-width:768px) 90vw, 30vw" alt="Stóri-Dímon standing alone over golden fields under a storm sky" loading="lazy">
+          </figure>
+          <div class="waypoint_text">
+            <h4 class="waypoint_name">Stóri-Dímon</h4>
+            <p class="waypoint_caption t-title-italic">The lone mountain on the Markarfljót plain. From the farm it sits right in front of you.</p>
+          </div>
+        </div>
+
+        <div class="waypoint is-left is-last">
+          <figure class="waypoint_card is-wide">
+            <img width="2200" height="1236" src="assets/img/plate-hillhouse.webp" srcset="assets/img/plate-hillhouse-sm.webp 1100w, assets/img/plate-hillhouse.webp 2200w" sizes="(max-width:768px) 90vw, 36vw" alt="The white Hill House at Eyvindarholt against the hillside" loading="lazy">
+          </figure>
+          <div class="waypoint_text">
+            <p class="layout-title_sm is-fell">N63 38.931 W19 56.379</p>
+            <h4 class="waypoint_name">Eyvindarholt</h4>
+            <p class="waypoint_caption t-title-italic">Five minutes from Seljalandsfoss. Let yourself in; the key waits in the lockbox.</p>
+          </div>
+        </div>
+      </div>
+      <div class="journey_data container-large">
+        <ul>
+          <li><span class="data-num">5 min</span><span class="data-label">to Seljalandsfoss and Gljúfrabúi</span></li>
+          <li><span class="data-num">15 min</span><span class="data-label">to the Vestmannaeyjar ferry at Landeyjahöfn</span></li>
+          <li><span class="data-num">50 min</span><span class="data-label">to Reynisfjara black sand beach and Vík</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8 · THE DC-3 (dark vitrine) ============ -->
+  <section class="exhibit" id="rebuild" data-nav-section data-nav-theme-val="light">
+    <div class="container-large">
+      <div class="exhibit_layout">
+        <div class="exhibit_text">
+          <p class="layout-title_sm is-fell">The DC-3</p>
+          <h3 class="h3-serif is-white">The plane that drove 716 km</h3>
+          <p class="exhibit_body">A US Navy DC-3 first flew in 1944. On 25 July 1969 it ran off the gravel runway at Sauðanes in the far northeast, and all four aboard walked away. For decades it sheltered horses and sheep, until the farmers Ágúst and Steinunn gave it to Tómas, who wanted a viewing point on his land. It crossed Iceland on a trailer to face Stóri-Dímon.</p>
+          <dl class="exhibit_facts">
+            <div><dt>First flight</dt><dd>1944</dd></div>
+            <div><dt>Last landing</dt><dd>Sauðanes, 1969</dd></div>
+            <div><dt>The drive here</dt><dd>716 km across Iceland</dd></div>
+          </dl>
+        </div>
+        <figure class="exhibit_frame" id="exhibitFrame">
+          <img width="1600" height="900" src="assets/img/exhibit-dc3-move.webp" alt="The DC-3 fuselage loaded on a flatbed truck, its wings off on the grass beside it" loading="lazy">
+          <figcaption class="layout-title_sm">On the trailer, wings off, during the move</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 9 · ROOM FOR EVERYONE ============ -->
+  <section class="food" id="comforts" data-nav-section data-nav-theme-val="dark">
+    <div class="container-large">
+      <header class="food_head">
+        <h3 class="section-title">Room for everyone</h3>
+        <p class="food_intro">The Hill House is made for a group: ten beds, two ovens, a dishwasher, a washer and dryer, and underfloor heating. The two cabins keep it simple for four.</p>
+      </header>
+      <div class="food_strip" id="foodStrip">
+        <figure class="food_plate">
+          <img width="1400" height="931" src="assets/img/room-kitchen.webp" alt="The Hill House kitchen with a bar along the window" loading="lazy">
+        </figure>
+        <figure class="food_plate">
+          <img width="1400" height="931" src="assets/img/room-dining.webp" alt="The long Hill House dining table under a pendant light" loading="lazy">
+        </figure>
+        <figure class="food_plate">
+          <img width="1400" height="931" src="assets/img/room-bedroom.webp" alt="A Hill House double bedroom with a window onto the plain" loading="lazy">
+        </figure>
+      </div>
+      <ul class="food_menu">
+        <li><span class="menu-name">Bed linen and cleaning</span><span class="menu-dots"></span><span class="menu-price">Included</span></li>
+        <li><span class="menu-name">Self check-in with a lockbox</span><span class="menu-dots"></span><span class="menu-price">All three</span></li>
+        <li><span class="menu-name">High-speed WiFi</span><span class="menu-dots"></span><span class="menu-price">All three</span></li>
+        <li><span class="menu-name">Free parking on the premises</span><span class="menu-dots"></span><span class="menu-price">All three</span></li>
+        <li><span class="menu-name">Hot tub on the deck</span><span class="menu-dots"></span><span class="menu-price">Hill House</span></li>
+        <li><span class="menu-name">Washer and dryer</span><span class="menu-dots"></span><span class="menu-price">Hill House</span></li>
+      </ul>
+      <p class="food_note t-title-italic">The nearest shops, pharmacy and fuel are in Hvolsvöllur, about 25 km away.</p>
+    </div>
+  </section>
+
+  <!-- ============ 10 · ASK FOR YOUR DATES ============ -->
+  <section class="book" id="book" data-nav-section data-nav-theme-val="dark">
+    <div class="container-large">
+      <div class="book_layout">
+        <div class="book_text">
+          <h3 class="h3-serif">Ask for your dates</h3>
+          <p class="book_body">Pick a roof and your dates, and the request goes straight to Tómas. No card and no charge; he confirms each stay personally.</p>
+          <ul class="book_points">
+            <li><span class="data-num">18 guests</span><span class="data-label">across the three roofs, by their own listings</span></li>
+            <li><span class="data-num">Groups</span><span class="data-label">running and cycling clubs, riders and big families; the Hill House and Cabin together sleep 14</span></li>
+            <li><span class="data-num">No card</span><span class="data-label">a request, not a charge; Tómas confirms</span></li>
+          </ul>
+        </div>
+        <form class="book_form" id="bookForm" novalidate>
+          <fieldset class="book_houses">
+            <legend class="book_label">The roof</legend>
+            <div class="book_pills">
+              <label class="book_pill"><input type="radio" name="house" value="Hill House (sleeps 10)" checked><span>Hill House · 10</span></label>
+              <label class="book_pill"><input type="radio" name="house" value="The Cabin (sleeps 4)"><span>The Cabin · 4</span></label>
+              <label class="book_pill"><input type="radio" name="house" value="Vallnatún (sleeps 4)"><span>Vallnatún · 4</span></label>
+              <label class="book_pill"><input type="radio" name="house" value="Hill House and Cabin together (sleeps 14)"><span>House and Cabin · 14</span></label>
+            </div>
+          </fieldset>
+          <!-- THE STAY PICKER. Same rules as the engine-wired picker in the
+               Riverbank build (live nights from GET /booking/days, a booked
+               night is still a legal checkout, a range may not cross one,
+               minimum stay named at selection) plus the undo rule of
+               2026-09-15. Rendered by app.js; dates leave in the hidden inputs. -->
+          <fieldset class="book_stay">
+            <legend class="book_label">Your dates</legend>
+            <div class="stay" id="stayPicker">
+              <div class="stay_head">
+                <button type="button" class="stay_nav" id="stayPrev" aria-label="Previous month"><span aria-hidden="true">&larr;</span></button>
+                <p class="stay_live" id="stayLive" aria-live="polite"></p>
+                <button type="button" class="stay_nav" id="stayNext" aria-label="Next month"><span aria-hidden="true">&rarr;</span></button>
+              </div>
+              <div class="stay_grids" id="stayGrids"></div>
+              <p class="stay_note" id="stayNote" role="status" hidden></p>
+              <div class="stay_read">
+                <div class="stay_box"><span class="stay_box-label">Arrive</span><strong class="stay_box-val" id="stayIn">Pick a night</strong></div>
+                <div class="stay_box"><span class="stay_box-label">Leave</span><strong class="stay_box-val" id="stayOut">Pick a morning</strong></div>
+                <p class="stay_nights" id="stayNights">Minimum 2 nights</p>
+                <button type="button" class="stay_clear" id="stayClear" hidden>Clear dates</button>
+              </div>
+              <p class="stay_src" id="staySrc"></p>
+            </div>
+            <input type="hidden" id="bkArrive" name="arrival">
+            <input type="hidden" id="bkDepart" name="departure">
+            <p class="book_err" id="errArrive" hidden>Pick the night you arrive and the morning you leave.</p>
+          </fieldset>
+          <div class="book_grid">
+            <div class="book_field">
+              <label class="book_label" for="bkGuests">Guests</label>
+              <input class="book_input" id="bkGuests" name="guests" type="number" min="1" max="14" inputmode="numeric" required>
+              <p class="book_err" id="errGuests" hidden>How many of you, 1 to 14?</p>
+            </div>
+            <div class="book_field">
+              <label class="book_label" for="bkName">Name</label>
+              <input class="book_input" id="bkName" name="name" type="text" autocomplete="name" required>
+              <p class="book_err" id="errName" hidden>Tell Tómas your name.</p>
+            </div>
+            <div class="book_field">
+              <label class="book_label" for="bkPhone">Phone</label>
+              <input class="book_input" id="bkPhone" name="phone" type="tel" autocomplete="tel" required>
+              <p class="book_err" id="errPhone" hidden>A phone number, so Tómas can reach you.</p>
+            </div>
+            <div class="book_field">
+              <label class="book_label" for="bkEmail">Email</label>
+              <input class="book_input" id="bkEmail" name="email" type="email" autocomplete="email" spellcheck="false" required>
+              <p class="book_err" id="errEmail" hidden>That email does not look complete.</p>
+            </div>
+            <div class="book_field is-wide">
+              <label class="book_label" for="bkMsg">Anything else <span class="book_optional">optional</span></label>
+              <textarea class="book_input book_area" id="bkMsg" name="message" rows="3" placeholder="A running club weekend, a late arrival, a question about the DC-3…"></textarea>
+            </div>
+          </div>
+          <div class="book_actions">
+            <button class="btn book_submit" id="bkSubmit" type="submit">Send the request</button>
+            <p class="book_note t-detail">The request goes straight to Tómas. Nothing is charged now; he confirms each stay personally.</p>
+          </div>
+          <p class="book_err book_err--form" id="errForm" aria-live="polite" hidden></p>
+        </form>
+        <div class="book_done" id="bookDone" role="status" aria-live="polite" tabindex="-1" hidden>
+          <p class="book_done-title h3-serif">Request sent</p>
+          <p class="book_done-body">Thank you. The request is with Tómas and he confirms each stay personally. Nothing is charged now.</p>
+          <p class="book_done-ref layout-title_sm">Reference <span id="bookRef"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 11 · CONTACT / FOOTER ============ -->
+  <footer class="footer" id="contact" data-nav-section data-nav-theme-val="light">
+    <div class="container-large">
+      <div class="footer_head">
+        <h2 class="footer_title">The key is in the lockbox</h2>
+        <p class="footer_sub t-title-italic">Write or call, and Tómas helps you plan the whole stay.</p>
+      </div>
+      <div class="footer_grid">
+        <div class="footer_col">
+          <p class="layout-title_sm is-faded">Talk to us</p>
+          <a class="footer_big" href="tel:+3548401119">+354 840 1119</a>
+          <a class="footer_big" href="mailto:info@eyvindarholt.is">info@eyvindarholt.is</a>
+        </div>
+        <div class="footer_col">
+          <p class="layout-title_sm is-faded">Find us</p>
+          <p class="t-body">Eyvindarholt<br>861 Hvolsvöllur, South Iceland</p>
+          <p class="t-body is-faded">N63 38.931 W19 56.379</p>
+        </div>
+        <div class="footer_col">
+          <p class="layout-title_sm is-faded">The roofs</p>
+          <p class="t-body">Hill House and the Cabin at Eyvindarholt, with Vallnatún near the coast. Each is bookable on its own, with linen and cleaning included.</p>
+        </div>
+      </div>
+      <div class="footer_base">
+        <p class="t-detail">Tómas Birgir Magnússon · Superhost, 11 years hosting</p>
+        <div class="footer_links">
+          <a href="https://www.facebook.com/eyvindarholthillhouseandcabins/" rel="noopener" target="_blank">Facebook</a>
+          <a href="https://www.airbnb.com/rooms/41358100" rel="noopener" target="_blank">Airbnb</a>
+        </div>
+        <p class="t-detail">Design proposal, not the live site</p>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<!-- flyout: how a stay works -->
+<div class="flyout" id="flyout" aria-hidden="true">
+  <button class="flyout_overlay" id="flyoutOverlay" tabindex="-1" aria-label="Close panel"></button>
+  <aside class="flyout_sheet" role="dialog" aria-modal="true" aria-labelledby="flyoutTitle" data-lenis-prevent>
+    <button class="flyout_close" id="flyoutClose" aria-label="Close">Close</button>
+    <h3 class="flyout_title" id="flyoutTitle">How a stay works</h3>
+    <ol class="flyout_steps">
+      <li><h4>1. Ask for your dates</h4><p>The request goes straight to Tómas, with no card and no charge. He confirms each stay personally.</p></li>
+      <li><h4>2. Pick your roof</h4><p>The Hill House for ten, the Cabin for four, or Vallnatún for four. Groups take the Hill House and Cabin together.</p></li>
+      <li><h4>3. Drive east along the coast</h4><p>Route 1 past Hvolsvöllur, where the last shops are, then five minutes on from Seljalandsfoss.</p></li>
+      <li><h4>4. Let yourself in</h4><p>Self check-in at all three roofs. At the Hill House and the Cabin the key waits in a lockbox.</p></li>
+      <li><h4>5. Day trips, if you want them</h4><p>Seljalandsfoss is five minutes, the Vestmannaeyjar ferry fifteen, Reynisfjara fifty. Þórsmörk and Landmannalaugar in summer.</p></li>
+    </ol>
+  </aside>
+</div>
+<button class="flyout_tab" id="flyoutTab" aria-controls="flyout" aria-expanded="false">How a stay works</button>
+
+<!-- custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true">
+  <span class="cursor_line-v" id="curV"></span>
+  <span class="cursor_line-h" id="curH"></span>
+  <span class="cursor_dot" id="curDot"></span>
+  <span class="cursor_label" id="curLabel"></span>
+</div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="app.js?v=e6b745c8"></script>
+</body>
+</html>
